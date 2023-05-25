@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(gray, beige);
+    color: rgb(1, 7, 7);
+  
+}
+
+
+.main {
+
+    font-size: 2rem;
+    padding: 15vw;
+    color: rgb(238, 230, 230);
+    background: linear-gradient(black, aqua);
+    min-width: 20vw;
+    height: 70vh;
+    border-radius: 2vh;
+    border: solid 2px black;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    width: 60vw;
+    text-align:center;
+
+}
+
+.main p{
+    font-size:4rem;
+}
+
+.buttons input {
+    font-size: 2rem;
+    border-radius: 5px;
+    background: linear-gradient(black , aqua);
+    color: aliceblue;
+    margin: 10px;
+ 
+
+
+
+}
+
+.main input {
+    font-size: 2rem;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+    
+
+}
+
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 120vh;
+    flex-direction: column;
+    background: linear-gradient(black, aqua);
+
+}
+
+
+img{
+    width:45vw;
+    height: 25vh;
+
+}
+
+#jesus{
+    color: rgb(221, 231, 231);
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(186, 218, 11);
+}
+
+p{
+    color: rgb(221, 231, 231);
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(186, 218, 11);
+    margin-top: 30px;
+
+}
+
+
+.buttons{
+    display: flex;
+     padding: 20px;
+     align-items: center;
+     justify-content: space-between;
+     width: 380px;
+     margin: 10px;
+}
+
+
+
+#whats{
+    width: 20px;
+    height: 20px;
+}
+
+.realizado{
+    background: linear-gradient(black, aqua);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* Estilos para desktop */
+  .main {
+      display: flex;
+          flex-wrap: wrap;
+          width:550px;
+
+  }
+  
+  img{
+      width:50vw;
+      height:25vh;
+  }
+  
+}
